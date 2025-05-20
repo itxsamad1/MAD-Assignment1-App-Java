@@ -84,4 +84,4 @@ This Android application demonstrates fundamental concepts of mobile application
 *(Screenshots would be added here)*
 
 ## License
-This project is part of academic coursework and is not licensed for commercial use. 
+This project is part of academic coursework and is not licensed for commercial use.
