@@ -1,87 +1,53 @@
 # Mobile Application Development - Assignment #01
 
-This repository contains the Android application developed for Assignment #01 of the Mobile Application Development course.
+A comprehensive Android application demonstrating core mobile development concepts including multi-screen navigation, user authentication, data handling, and interactive features.
 
-## Application Overview
+## 📱 Features
 
-This Android application demonstrates fundamental concepts of mobile application development including navigation between activities, form handling, data persistence, and UI design. The application includes various screens and functionalities as specified in the assignment requirements.
+| Feature | Description |
+|---------|-------------|
+| **Splash Screen** | Branded launch screen with 5-second automatic transition |
+| **Authentication** | Sign In/Sign Up with validation and SharedPreferences storage |
+| **Home Screen** | Personalized welcome with navigation to app features |
+| **Tic-Tac-Toe Game** | Interactive game with win detection and state management |
+| **Admission Form** | Data collection with validation and feedback |
 
-## Features
+## 🖼️ Screenshots
 
-### 1. Splash Screen
-- Displays a welcome screen with app branding
-- Automatically navigates to Sign In screen after 5 seconds
+### Splash Screen
+![Splash Screen](images/Screenshot%202025-05-21%20031438.png)
 
-### 2. Authentication Screens
-- **Sign In**: Validates user credentials and navigates to Home screen
-- **Sign Up**: Collects user information, saves it using SharedPreferences, and displays a success toast message
+### Sign In
+![Sign In](images/Screenshot%202025-05-21%20031451.png)
 
-### 3. Home Screen
-- Welcomes the user with their name retrieved from SharedPreferences
-- Provides navigation cards to:
-  - Tic-Tac-Toe Game
-  - Admission Form
+### Sign Up
+![Sign Up](images/Screenshot%202025-05-21%20031503.png)
 
-### 4. Game Activity
-- Interactive Tic-Tac-Toe game implementation
-- Tracks player turns and game state
-- Displays win/draw messages and allows restarting
+### Home
+![Home](images/Screenshot%202025-05-21%20031529.png)
 
-### 5. Admission Form
-- Collects prospective student information
-- Implements form validation for all fields
-- Displays a success toast message upon successful submission
+### Game
+![Game](images/Screenshot%202025-05-21%20031540.png)
 
-## Concepts Implemented
+### Admission Form
+![Admission Form](images/Screenshot%202025-05-21%20031556.png)
 
-1. **Activity Lifecycle Management**
-   - Proper handling of activity creation and navigation
-   - State preservation during configuration changes
+## 🔧 Technical Implementations
 
-2. **User Interface Design**
-   - Material Design components (TextInputLayout, CardView)
-   - Responsive layouts with ConstraintLayout
-   - Custom styling and themes
+- **Activity Lifecycle Management** with proper navigation flow
+- **UI Design** using Material Components and responsive layouts
+- **Data Persistence** with SharedPreferences
+- **Form Validation** with real-time error feedback
+- **Game Logic** with state tracking and win condition algorithms
 
-3. **Data Management**
-   - Form validation and error handling
-   - SharedPreferences for local data storage
-   - Input sanitization and formatting
+## 🚀 Getting Started
 
-4. **User Experience**
-   - Toast notifications for user feedback
-   - Intuitive navigation between screens
-   - Form field validation with helpful error messages
+```bash
+git clone https://github.com/itxsamad1/MAD-Assignment1-App-Java.git
+```
 
-5. **Navigation**
-   - Intent-based navigation between activities
-   - Proper activity stack management
+Open in Android Studio, build, and run on an emulator or device (Minimum SDK: 35).
 
-6. **Game Logic Implementation**
-   - State tracking for the Tic-Tac-Toe game
-   - Win condition checking algorithms
-   - Interactive UI elements
-
-## Setup Instructions
-
-1. Clone the repository:
-   ```
-   git clone https://github.com/itxsamad1/MAD-Assignment1-App-Java.git
-   ```
-
-2. Open the project in Android Studio
-
-3. Build and run the application on an emulator or physical device
-
-## Requirements
-
-- Android Studio Arctic Fox or newer
-- Minimum SDK: 35
-- Target SDK: 35
-- Java Development Kit 11 or newer
-
-## Screenshots
-*(Screenshots would be added here)*
-
-## License
-This project is part of academic coursework and is not licensed for commercial use.
+## ⚙️ Requirements
+- Android Studio Arctic Fox+
+- Java Development Kit 11+
